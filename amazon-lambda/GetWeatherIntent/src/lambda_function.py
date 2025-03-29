@@ -11,7 +11,7 @@ import urllib3
 
 
 def get_weather():
-    API_KEY = "7d00452f48790228f7a1940e528cf774"  # Replace with your API Key
+    API_KEY = "<>"  # Replace with your API Key
     CITY = "Thessaloniki"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
     
